@@ -7,7 +7,7 @@ class OKstar():
         okCd = pyautogui.locateOnScreen(r'C:\Users\dengxinqiang\Desktop\picture\ok.png', grayscale=True)
         while okCd == None:
             try:
-                time.sleep(5)
+                time.sleep(1)
                 okCd = pyautogui.locateOnScreen(r'C:\Users\dengxinqiang\Desktop\picture\ok.png', grayscale=True)
                 x2, y2 = pyautogui.center(okCd)
                 btnok = pyautogui.moveTo(x2, y2)
