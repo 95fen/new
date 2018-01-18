@@ -1,5 +1,8 @@
 import pyautogui
 import time
+import pytesseract
+import requests
+
 
 
 print(pyautogui.getWindows())

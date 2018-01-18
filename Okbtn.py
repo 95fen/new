@@ -16,6 +16,7 @@ class OKstar():
 
             except:
                 print(okCd)
+
                 t.start()#截图
 
             continue

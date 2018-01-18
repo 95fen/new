@@ -1,12 +1,12 @@
 import pyautogui
 import time
-
+#抽将
 # def choujiang_zb():
 # win= pyautogui.getWindows()
 # print(win)
-print(pyautogui.getWindows())
-win = pyautogui.getWindow("MNSG.exe - Build 2.05.25.0804")
-
+print(pyautogui.getWindows())#获取当前正在运行的所有程序
+win = pyautogui.getWindow("MNSG.exe - Build 2.05.25.0804")#定位要操作的程序
+#获取要操作程序的坐标点
 print(win.get_position())
 #(371, 235, 1513, 904)
 x=win.get_position()[0]

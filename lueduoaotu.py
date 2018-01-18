@@ -39,4 +39,4 @@ while i==1:
     time.sleep(5)
     click_btn_ss()
     time.sleep(5)
-
+    jietu.start()
